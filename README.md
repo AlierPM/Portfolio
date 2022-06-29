@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Setup and mobile version skeleton
+# Portfolio: Setup and mobile version skeleton
 
 > For the first milestone in the process of creating my portfolio website, I did the following:
 
