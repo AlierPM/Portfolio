@@ -4,14 +4,14 @@
 
 > For the first milestone in the process of creating my portfolio website, I did the following:
 
-Set up a new repository and prepared it for development using best practices (e.g. linters).
+* Set up a new repository and prepared it for development using best practices (e.g. linters).
 
-Built the first 2 sections of the mobile website using the template I chose in the previous step.
+* Built the first 2 sections of the mobile website using the template I chose in the previous step.
 The two sections required in this project are:
 
--the toolbar (or header)
+  - the toolbar (or header)
 
--the headline section (right after the header)
+  - the headline section (right after the header)
 
 
 
@@ -24,7 +24,7 @@ The two sections required in this project are:
 
 
 
-To get a local copy up and running follow these simple example steps.
+>To get a local copy up and running follow these simple example steps.
 Locate the project folder in the Repository.
 Click on the code button and dowload a zip file for the project locally.
 Locate the index.html file and double click it to view webpage.
