@@ -1,40 +1,48 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Setup and mobile version skeleton
 
-> Description the project.
+> For the first milestone in the process of creating my portfolio website, I did the following:
+
+Set up a new repository and prepared it for development using best practices (e.g. linters).
+
+Built the first 2 sections of the mobile website using the template I chose in the previous step.
+The two sections required in this project are:
+
+-the toolbar (or header)
+
+-the headline section (right after the header)
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- CSS
+- Technologies used: vs code, git and GitHub
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
+Locate the project folder in the Repository.
+Click on the code button and dowload a zip file for the project locally.
+Locate the index.html file and double click it to view webpage.
 
 ### Prerequisites
+Node.js, stylelint, browser for displaying it's content.
+install node package manager(npm): npm helps to install stylelint.
+
 
 ### Setup
-
-### Install
+Download and install browser.
 
 ### Usage
+Navigate through the web page to find the information you need. Use the links in the pages to move to different sections.
 
-### Run tests
 
 ### Deployment
+  Project reside in this Repo. You can clone the repo or download the files manually to your local machine.
 
 
 
@@ -42,9 +50,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/AlierPM)
-- Twitter: [@twitterhandle](https://twitter.com/AlierPM)
-- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/alier-philip-maguet-b11653203/)
+- GitHub: [@AlierPM](https://github.com/AlierPM)
+- Twitter: [@AlierPM](https://twitter.com/AlierPM)
+- LinkedIn: [@AlierPM](https://www.linkedin.com/in/alier-philip-maguet-b11653203/)
 
 
 ## 🤝 Contributing
