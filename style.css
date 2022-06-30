@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
 
 body {
   margin: 0;
@@ -31,6 +31,7 @@ body {
 
 header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
   padding: 1.3rem;
@@ -47,24 +48,20 @@ header {
   margin-top: 0;
 }
 
-.hero {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .intro {
-  margin-top: 5.8125rem;
-  margin-right: 3.625rem;
-  font-weight: 700;
+  margin-top: 5.3125rem;
+  margin-right: 2.5rem;
+  font-weight: 900;
   font-size: 2.5rem;
   line-height: 3.25rem;
   color: #172b4d;
 }
 
-.into-text {
-  font-weight: 400;
+.intro-text {
+  font-family: Poppins;
+  font-weight: 500;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 24px;
   color: #344563;
 }
 
@@ -77,4 +74,20 @@ header {
   font-weight: 500;
   font-size: 1.3rem;
   line-height: 1.5rem;
+}
+
+.social ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding: 0;
+}
+
+.social ul li {
+  list-style: none;
+}
+.social ul li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
 }
