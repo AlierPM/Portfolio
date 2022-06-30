@@ -35,6 +35,8 @@ header {
   justify-content: space-between;
   align-items: baseline;
   padding: 1.3rem;
+  margin: auto 0;
+  width: 100%;
   min-width: 375px;
 }
 
@@ -49,7 +51,7 @@ header {
 }
 
 .intro {
-  margin-top: 5.3125rem;
+  margin-top: 5.325rem;
   margin-right: 2.5rem;
   font-weight: 900;
   font-size: 2.5rem;
@@ -58,10 +60,9 @@ header {
 }
 
 .intro-text {
-  font-family: Poppins;
   font-weight: 500;
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #344563;
 }
 
@@ -86,6 +87,7 @@ header {
 .social ul li {
   list-style: none;
 }
+
 .social ul li a img {
   width: 20px;
   height: 20px;
