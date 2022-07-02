@@ -1,17 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Setup and mobile version skeleton
+# Portfolio: Mobile Version
+  ### Middle-section: This section lists all my projects 
+> It is the Second milestone in the process of creating my portfolio website:
 
-> For the first milestone in the process of creating my portfolio website, I did the following:
+* Addded the Middle section of the mobile version
+   > Work-Station Section
+   
+   > About Me Section
 
-* Set up a new repository and prepared it for development using best practices (e.g. linters).
-
-* Built the first 2 sections of the mobile website using the template I chose in the previous step.
-The two sections required in this project are:
-
-  - the toolbar (or header)
-
-  - the headline section (right after the header)
+* This project is a continuation of the previous project, so it also contain headline section code.
 
 
 
@@ -48,8 +46,8 @@ Navigate through the web page to find the information you need. Use the links in
 
 
 
-👤 **Author**
-
+## Authors
+:bust_in_silhouette: **Alier Philip Maguet**
 - GitHub: [@AlierPM](https://github.com/AlierPM)
 - Twitter: [@AlierPM](https://twitter.com/AlierPM)
 - LinkedIn: [@AlierPM](https://www.linkedin.com/in/alier-philip-maguet-b11653203/)
