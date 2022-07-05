@@ -555,3 +555,7 @@ main p {
   width: 70%;
   padding-left: 2.8em;
 }
+
+.contact-me--form{
+  display: flex;
+}
