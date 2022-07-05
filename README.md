@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio:  Add a contact form and finish the mobile version
-Learning objectives
-  ### Contact Form: This section lists all my projects 
+Third Milestone:
+  ### Contact Form: Created the contact form  to finish the mobile version of my portfolio 
 > It is the third milestone in the process of creating my portfolio website:
 
 * Addded the Contact Form to mobile version
    
 
-* This project is a continuation of the previous project, so it also containo the whole project code for the mobile version
+* This project is a continuation of the previous project, so it also contain the whole project code for the mobile version
 
 * Created the form with HTML5 validations.
 * Implement the principles of UX.
