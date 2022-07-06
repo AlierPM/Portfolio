@@ -653,13 +653,6 @@ textarea::placeholder {
   color: #fff;
 }
 
-.form-button:active:enabled {
-  color: red;
-  background: #ffffff;
-  border: 1px solid #7f8cff;
-  border-radius: 8px;
-}
-
 textarea:focus,
 input:focus {
   outline: none;
