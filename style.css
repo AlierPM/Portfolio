@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* core styles */
@@ -569,13 +571,12 @@ main p {
   min-height: 779px;
   border: 1px solid #dfe1e6;
   border-top-left-radius: 10vmax;
-  margin-left: 1.5em;
-  margin-top: 1.2em;
   margin: auto;
 }
+
 .contact-me--form .form-bg--image {
-  position: absolute;
   background: url(./images/form-background-image.svg);
+  position: absolute;
   background-repeat: no-repeat;
   width: 375px;
   height: 779px;
@@ -584,7 +585,8 @@ main p {
 
 .contact-me {
   font-weight: 700;
-  color: #ffffff;
+  color: #fff;
+  font-size: 40px;
 }
 
 .form-intro {
@@ -594,9 +596,10 @@ main p {
   width: 327px;
   height: 102px;
 }
+
 .form-intro p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   color: #ebebff;
   text-align: center;
 }
@@ -606,6 +609,7 @@ label {
   text-align: right;
   padding-left: 16px;
 }
+
 form #name,
 form #email {
   width: 327px;
@@ -629,17 +633,18 @@ textarea::placeholder {
   padding-top: 15px;
   color: #b3bac5;
 }
+
 .form-button {
   width: 140px;
   height: 48px;
   margin-left: -186px;
   margin-top: 30px;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .form-button:enabled {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #6070ff;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -649,7 +654,7 @@ textarea::placeholder {
 
 .form-button:hover:enabled {
   background-color: #6070ff;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
 }
 
@@ -657,3 +662,4 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+/* stylelint-enable no-descending-specificity */
