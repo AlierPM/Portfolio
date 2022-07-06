@@ -559,6 +559,13 @@ main p {
   padding-left: 2.8em;
 }
 
+.background-container {
+  background: #e5e5e5;
+  width: 375px;
+  margin: auto;
+  border: 2px solid #e5e5e5;
+}
+
 .contact-me--form {
   display: flex;
   flex-direction: column;
@@ -572,6 +579,10 @@ main p {
   border: 1px solid #dfe1e6;
   border-top-left-radius: 10vmax;
   margin: auto;
+}
+
+.form-bg--image {
+  margin-top: 44px;
 }
 
 .contact-me--form .form-bg--image {
@@ -590,9 +601,9 @@ main p {
 }
 
 .form-intro {
-  margin-bottom: 75px;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 60px;
   width: 327px;
   height: 102px;
 }
@@ -604,22 +615,27 @@ main p {
   text-align: center;
 }
 
-label {
-  display: inline-block;
-  text-align: right;
-  padding-left: 16px;
-}
-
 form #name,
 form #email {
   width: 327px;
   height: 48px;
 }
 
-form input,
-form textarea {
+form input {
+  font-size: 17px;
+  color: #172b4d;
   border-radius: 12px;
   border-style: none;
+  padding-left: 16px;
+}
+
+form textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 12px;
+  border-style: none;
+  padding-left: 16px;
+  padding-top: 20px;
 }
 
 input::placeholder {
@@ -630,7 +646,7 @@ input::placeholder {
 
 textarea::placeholder {
   padding-left: 16px;
-  padding-top: 15px;
+  padding-top: 20px;
   color: #b3bac5;
 }
 
@@ -638,18 +654,23 @@ textarea::placeholder {
   width: 140px;
   height: 48px;
   margin-left: -186px;
-  margin-top: 30px;
+  margin-top: 5px;
   border-radius: 8px;
   background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #6070ff;
 }
 
 .form-button:enabled {
   background-color: #fff;
   color: #6070ff;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.03em;
   border: 1px solid #7f8cff;
   border-radius: 8px;
+  text-align: center;
 }
 
 .form-button:hover:enabled {
