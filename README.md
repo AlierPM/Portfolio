@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Mobile Version
-  ### Middle-section: This section lists all my projects 
-> It is the Second milestone in the process of creating my portfolio website:
+# Portfolio:  Add a contact form and finish the mobile version
+Third Milestone:
+  ### Contact Form: Created the contact form  to finish the mobile version of my portfolio 
+> It is the third milestone in the process of creating my portfolio website:
 
-* Addded the Middle section of the mobile version
-   > Work-Station Section
+* Addded the Contact Form to mobile version
    
-   > About Me Section
 
-* This project is a continuation of the previous project, so it also contain headline section code.
+* This project is a continuation of the previous project, so it also contain the whole project code for the mobile version
+
+* Created the form with HTML5 validations.
+* Implement the principles of UX.
+
 
 
 

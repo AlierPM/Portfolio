@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* core styles */
@@ -518,6 +520,7 @@ main p {
   padding-left: 1.2em;
   margin-top: 0;
   padding-top: 0;
+  border: none;
 }
 
 .about-me .about-me-container .base-icon-5 ul {
@@ -555,3 +558,129 @@ main p {
   width: 70%;
   padding-left: 2.8em;
 }
+
+.background-container {
+  background: #e5e5e5;
+  width: 375px;
+  margin: auto;
+  border: 2px solid #e5e5e5;
+}
+
+.contact-me--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #6070ff;
+  padding: 16px;
+  gap: 2em;
+  width: 375px;
+  min-height: 779px;
+  border: 1px solid #dfe1e6;
+  border-top-left-radius: 10vmax;
+  margin: auto;
+}
+
+.form-bg--image {
+  margin-top: 44px;
+}
+
+.contact-me--form .form-bg--image {
+  background: url(./images/form-background-image.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 779px;
+  margin-left: 135px;
+}
+
+.contact-me {
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+}
+
+.form-intro {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 60px;
+  width: 327px;
+  height: 102px;
+}
+
+.form-intro p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  text-align: center;
+}
+
+form #name,
+form #email {
+  width: 327px;
+  height: 48px;
+}
+
+form input {
+  font-size: 17px;
+  color: #172b4d;
+  border-radius: 12px;
+  border-style: none;
+  padding-left: 16px;
+}
+
+form textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 12px;
+  border-style: none;
+  padding-left: 16px;
+  padding-top: 20px;
+}
+
+input::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
+  color: #172b4d;
+}
+
+textarea::placeholder {
+  padding-left: 16px;
+  padding-top: 20px;
+  color: #b3bac5;
+}
+
+.form-button {
+  width: 140px;
+  height: 48px;
+  margin-left: -186px;
+  margin-top: 5px;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #6070ff;
+}
+
+.form-button:enabled {
+  background-color: #fff;
+  color: #6070ff;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.form-button:hover:enabled {
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+/* stylelint-enable no-descending-specificity */
