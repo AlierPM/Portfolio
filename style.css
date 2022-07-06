@@ -518,6 +518,7 @@ main p {
   padding-left: 1.2em;
   margin-top: 0;
   padding-top: 0;
+  border: none;
 }
 
 .about-me .about-me-container .base-icon-5 ul {
@@ -556,7 +557,98 @@ main p {
   padding-left: 2.8em;
 }
 
-.contact-me--form{
+.contact-me--form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color:#6070FF;;
+  padding: 16px;
+  gap: 2em;
+  width:375px;
+  min-height:779px;;
+  border: 1px solid #dfe1e6;
+  border-top-left-radius:10vmax;
+  margin-left: 1.5em;
+  margin-top: 1.2em;
+  margin: auto;
 }
+.contact-me--form .form-bg--image {
+  position: absolute;
+  background: url(./images/form-background-image.svg);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 779px;
+  margin-left:135px;
+
+}
+
+.contact-me {
+  font-weight: 700;
+  color: #FFFFFF;
+
+}
+
+.form-intro {
+  margin-bottom: 75px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width:327px;
+  height: 102px;
+}
+.form-intro p{
+  font-weight: 400;
+  font-size: 18px;
+  color:#EBEBFF;
+  text-align: center;
+
+}
+
+label {
+  display: inline-block;
+  text-align:right;
+  padding-left: 16px;
+}
+form #name, form #email {
+  width:327px;
+  height:48px;
+}
+
+form input, form textarea {
+  border-radius: 12px;
+  border-style: none;
+}
+
+input::placeholder {
+	padding-left: 16px;
+  padding-top:15px;
+  color: #172B4D;
+
+}
+
+textarea::placeholder {
+  padding-left: 16px;
+  padding-top:15px;
+  color: #B3BAC5;
+
+}
+.form-button { 
+  width:140px;
+  height:48px;
+  margin-left: -186px;
+  margin-top: 30px;
+  border-radius: 8px;
+  background: #FFFFFF;
+}
+
+.form-button:hover {
+  background-color:#6070FF;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  color:#fff;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+
