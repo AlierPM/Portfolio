@@ -562,13 +562,13 @@ main p {
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  background-color:#6070FF;;
+  background-color: #6070ff;
   padding: 16px;
   gap: 2em;
-  width:375px;
-  min-height:779px;;
+  width: 375px;
+  min-height: 779px;
   border: 1px solid #dfe1e6;
-  border-top-left-radius:10vmax;
+  border-top-left-radius: 10vmax;
   margin-left: 1.5em;
   margin-top: 1.2em;
   margin: auto;
@@ -579,76 +579,88 @@ main p {
   background-repeat: no-repeat;
   width: 375px;
   height: 779px;
-  margin-left:135px;
-
+  margin-left: 135px;
 }
 
 .contact-me {
   font-weight: 700;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .form-intro {
   margin-bottom: 75px;
   margin-left: 24px;
   margin-right: 24px;
-  width:327px;
+  width: 327px;
   height: 102px;
 }
-.form-intro p{
+.form-intro p {
   font-weight: 400;
   font-size: 18px;
-  color:#EBEBFF;
+  color: #ebebff;
   text-align: center;
-
 }
 
 label {
   display: inline-block;
-  text-align:right;
+  text-align: right;
   padding-left: 16px;
 }
-form #name, form #email {
-  width:327px;
-  height:48px;
+form #name,
+form #email {
+  width: 327px;
+  height: 48px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   border-radius: 12px;
   border-style: none;
 }
 
 input::placeholder {
-	padding-left: 16px;
-  padding-top:15px;
-  color: #172B4D;
-
+  padding-left: 16px;
+  padding-top: 15px;
+  color: #172b4d;
 }
 
 textarea::placeholder {
   padding-left: 16px;
-  padding-top:15px;
-  color: #B3BAC5;
-
+  padding-top: 15px;
+  color: #b3bac5;
 }
-.form-button { 
-  width:140px;
-  height:48px;
+.form-button {
+  width: 140px;
+  height: 48px;
   margin-left: -186px;
   margin-top: 30px;
   border-radius: 8px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
-.form-button:hover {
-  background-color:#6070FF;
+.form-button:enabled {
+  background-color: #ffffff;
+  color: #6070ff;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.form-button:hover:enabled {
+  background-color: #6070ff;
   box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-  color:#fff;
+  color: #fff;
 }
 
-textarea:focus, input:focus {
+.form-button:active:enabled {
+  color: red;
+  background: #ffffff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+textarea:focus,
+input:focus {
   outline: none;
 }
-
-
