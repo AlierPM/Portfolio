@@ -22,7 +22,7 @@
 
 ### To get a local copy up and running; follow these simple example steps:
 
-      > Locate the project folder in the Repository.
+      > Locate the project folder in the Repository named as Portfolio.
 
       > Click on the code button and dowload a zip file for the project locally.
 
