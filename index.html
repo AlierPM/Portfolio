@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio Mobile Version</title>
+    <title>My Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header id="headline">
+    <header>
+      <div class="logo-text"><a href="#">AlierPM</a></div>
       <nav class="nav-container">
-        <div class="logo-text"><a href="#">AlierPM</a></div>
-        <div class="right-logo">
-          <img src="images/menu-icon.png" alt="image" />
+        <ul class="nav-flex">
+          <li class="nav-link">
+            <a href="#">Portfolio</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">About</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">Contact</a>
+          </li>
+          <li class="nav-link">
+            <a href="#"><div class="envelope"></div></a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
       </nav>
     </header>
@@ -236,9 +252,8 @@
           </div>
         </div>
       </section>
-    </main>
-    <!--Contact form begins here-->
-    <div class="background-container">
+
+      <!--Contact form begins here-->
       <section class="contact-me--form">
         <div class="form-bg--image"></div>
         <div>
@@ -284,6 +299,6 @@
           </form>
         </div>
       </section>
-    </div>
+    </main>
   </body>
 </html>
