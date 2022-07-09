@@ -454,13 +454,14 @@ a {
   gap: 2em;
   min-height: 779px;
   border: 1px solid #dfe1e6;
-  border-top-left-radius: 10vmax;
   margin: auto;
   background: #6070ff url(./images/form-background-image.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  padding: 20%;
+  padding-left: 90px;
+  padding-top: 20%;
+  padding-bottom: 20%;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -698,7 +699,10 @@ input:focus {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    padding: 20%;
+    padding-left: 34px;
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -707,6 +711,14 @@ input:focus {
 
   .contact-me {
     text-align: center;
+  }
+
+  .contact-me--form .form-intro p {
+    width: 559px;
+    align-self: center;
+    margin-right: 16%;
+    margin-left: -94px;
+    margin-top: 6%;
   }
 }
 
