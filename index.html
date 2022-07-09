@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio Website</title>
+    <!-- Link to the Font-Awesome Font -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header>
-      <div class="logo-text"><a href="#">AlierPM</a></div>
-      <nav class="nav-container">
+    <header class="mobo">
+      <h2 class="logo-text"><a href="#">AlierPM</a></h2>
+      <div class="nav-menu">
         <ul class="nav-flex">
           <li class="nav-link">
             <a href="#">Portfolio</a>
@@ -22,22 +27,14 @@
           <li class="nav-link">
             <a href="#">Contact</a>
           </li>
-          <li class="nav-link">
-            <a href="#"><div class="envelope"></div></a>
-          </li>
         </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
+        <i class="mobo-menu fa fa-bars"></i>
+      </div>
     </header>
     <main>
-      <div class="headline-section grid">
-        <div class="bg-img"></div>
-        <div class="middle-text">
-          <h1>I'm Alier Glad to see you.</h1>
+      <div class="headline-section">
+          <div class="middle-text">
+          <h1>I'm Alier <br />Glad to see you.</h1>
           <p>
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
@@ -69,7 +66,9 @@
       <section id="works-section">
         <div class="card-1 contain">
           <div class="card-1-container">
-            <div class="image-container"></div>
+            <div class="image-container">
+              <img src="./images/Snapshoot-Portfolio-1.svg" alt="">
+            </div>
 
             <h1>Tonic</h1>
             <div class="list-container">
@@ -97,9 +96,11 @@
             </div>
           </div>
         </div>
-        <div class="card-2 contain">
+        <div class="card-2 content">
           <div class="card-2-container">
-            <div class="image-container2"></div>
+            <div class="image-container2">
+              <img src="./images/Snapshoot-Portfolio-2.svg" alt="">
+            </div>
 
             <h1 class="newh2">Multi-Post-Stories</h1>
             <div class="list-container">
@@ -129,7 +130,9 @@
         </div>
         <div class="card-3 contain">
           <div class="card-3-container">
-            <div class="image-container3"></div>
+            <div class="image-container3">
+              <img src="./images/Snapshoot-Portfolio-3.svg" alt="">
+            </div>
 
             <h1>Tonic</h1>
             <div class="list-container">
@@ -159,7 +162,9 @@
         </div>
         <div class="card-4 contain">
           <div class="card-4-container">
-            <div class="image-container4"></div>
+            <div class="image-container4">
+              <img src="./images/Snapshoot-Portfolio-4.svg" alt="">
+            </div>
 
             <h1 class="newh4">Multi-Post-Stories</h1>
             <div class="list-container">
@@ -252,8 +257,9 @@
           </div>
         </div>
       </section>
-
-      <!--Contact form begins here-->
+    </main>
+    <!--Contact form begins here-->
+    <div class="background-container">
       <section class="contact-me--form">
         <div class="form-bg--image"></div>
         <div>
@@ -299,6 +305,6 @@
           </form>
         </div>
       </section>
-    </main>
+    </div>
   </body>
 </html>
