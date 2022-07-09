@@ -1,17 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio:  Add a contact form and finish the mobile version
-Third Milestone:
-  ### Contact Form: Created the contact form  to finish the mobile version of my portfolio 
-> It is the third milestone in the process of creating my portfolio website:
+# Portfolio: Desktop Version
+   ### Fourth Milestone:
+> In this fourth milestone  of creating my portfolio website:
 
-* Addded the Contact Form to mobile version
-   
-
-* This project is a continuation of the previous project, so it also contain the whole project code for the mobile version
-
-* Created the form with HTML5 validations.
-* Implement the principles of UX.
+* I used media queries to make sure that your website displays correctly on desktop screens.
+* In order to lay out the elements on the page, I used Grid and Flexbox.
+* Implement the principles of UI.
 
 
 
@@ -25,14 +20,19 @@ Third Milestone:
 
 
 
->To get a local copy up and running follow these simple example steps.
-Locate the project folder in the Repository.
-Click on the code button and dowload a zip file for the project locally.
-Locate the index.html file and double click it to view webpage.
+### To get a local copy up and running; follow these simple example steps:
+
+      > Locate the project folder in the Repository named as Portfolio.
+
+      > Click on the code button and dowload a zip file for the project locally.
+
+      > Locate the index.html file and double click it to view webpage.
 
 ### Prerequisites
-Node.js, stylelint, browser for displaying it's content.
-install node package manager(npm): npm helps to install stylelint.
+   * Node.js
+   * stylelint
+   * browser for displaying it's content.
+   * install node package manager(npm): npm helps to install stylelint.
 
 
 ### Setup
