@@ -46,22 +46,26 @@ body {
   letter-spacing: 0.03em;
 }
 
-.base-links ul {
+/* .base-links ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
   padding-left: 5px;
   width: 180px;
-}
+} */
+
+
 
 .base-links ul li {
-  padding: 1em 1px;
+  float: left;
+  list-style: none;
 }
 
 .base-links ul li a {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center;  */
+  float: left;
   padding: 4px 12px;
   width: 53px;
   height: 24px;
