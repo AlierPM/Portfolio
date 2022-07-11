@@ -4,52 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio Mobile Version</title>
+    <title>My Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header id="headline">
-      <nav class="nav-container">
-        <div class="logo-text"><a href="#">AlierPM</a></div>
-        <div class="right-logo">
-          <img src="images/menu-icon.png" alt="image" />
-        </div>
+
+    <!-- headder containing navigation links and logo -->
+
+    <header>
+      <div class="mob-nav">
+        <p class="my-logo"><a href="index.html">AlierPM</a></p>
+        <span class="mob-nav-menu fa fa-bars"></span>
+      </div>
+
+      <!-- Desktop-nav display to none here  -->
+
+      <nav class="desktop-nav">
+        <ul class="d-nav">
+          <a href="#"><li class="d-nav-link">Portfolio</li></a>
+          <a href="#"><li class="d-nav-link">About</li></a>
+          <a href="#"><li class="d-nav-link">Contact</li></a>
+        </ul>
       </nav>
     </header>
-    <main>
-      <div class="headline-section grid">
-        <div class="bg-img"></div>
-        <div class="middle-text">
-          <h1>I'm Alier Glad to see you.</h1>
-          <p>
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
-        </div>
-        <div class="base-text">LET'S CONNECT</div>
-        <div class="media-icons">
-          <ul>
-            <li>
-              <a href=""><img src="images/vector.svg" alt="image" /></a>
-            </li>
-            <li>
-              <a href=""><img src="images/in.svg" alt="image" /></a>
-            </li>
-            <li>
-              <a href=""><img src="images/vectorm.png" alt="image" /></a>
-            </li>
-            <li>
-              <a href=""><img src="images/vectorhead.png" alt="image" /></a>
-            </li>
-            <li>
-              <a href=""><img src="images/vectorhand.png" alt="image" /></a>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+<!-- headline-section begins here -->
+
+    <section class="headline-section">
+      <div class="headline-bg-image">
+      <h1 class="headline-intro">I'm Alier <br> Glad to see you!</h1>
+      <p class="headline-intro-text">I’m a software developer! I can help you build a product , feature
+        or website Look through some of my work and experience! If you like
+        what you see and have a project you need coded, don’t hestiate to
+        contact me.</p>
+      <p class="headline-social-connect">LET'S CONNECT</p>
+      <ul class="headline-media-links">
+     <span class="fa fa-twitter"></span>
+      <span class="fa fa-linkedin"></span>
+      <span class="fa fa-medium" aria-hidden="true"></span>
+      <span class="fa fa-github"></span>
+     <span class="fa fa-angellist"></span>
+      </ul>
+    </div>
+    </section>
+   
+      <!-- <main>
       <section id="works-section">
         <div class="card-1 contain">
           <div class="card-1-container">
@@ -237,7 +241,7 @@
         </div>
       </section>
     </main>
-    <!--Contact form begins here-->
+    Contact form begins here
     <div class="background-container">
       <section class="contact-me--form">
         <div class="form-bg--image"></div>
@@ -284,6 +288,6 @@
           </form>
         </div>
       </section>
-    </div>
+    </div> --->
   </body>
 </html>
