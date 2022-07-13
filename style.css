@@ -342,6 +342,13 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 12px;
+  margin-bottom: 24px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
 }
 
 .form-btn {
@@ -356,19 +363,24 @@ textarea {
   border-radius: 8px;
   border-style: none;
   display: block;
-  margin-left: 0%;
+  margin-left: 16px;
 }
 
-.hoverme {
+.hoverme:hover:enabled {
   background: #6070ff;
   color: #fff;
   border: none;
 }
 
-.activeme {
-  background: #fff;
-  color: #6070ff;
+.activeme:active:enabled {
+  background: #2230d2;
+  color: #fff;
   border: none;
+}
+
+.disabled-f:active:hover:not([disabled]) {
+  color: #5e6c84;
+  background-color: #fff;
 }
 
 form {
