@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+img {
+width: 100%;
+}
+
 ul {
   list-style: none;
 }
@@ -47,53 +51,49 @@ ul {
 }
 
 header {
-  width:375px;
+  width:100%;
   background: #fff;
   padding: 24px; 
 
 }
 
 .headline-section {
-  border-bottom-left-radius: 100vmax;
-}
-
-.headline-section .headline-bg-image {
-  background-color: #fff;
-  background-image: url(./images/header-shapes-mobile.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: absolute;
-  width:375px;
-  height: 718px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 106px;
+  background: #fff url(./images/header-shapes-mobile.png) no-repeat 100% 100%;
+  width:100%;
   display:flex;
   flex-direction: column;
   z-index: -1;
   border-bottom-left-radius: 100px;
 }
 
+
 .headline-intro {
-  width:327px;
-  padding: 54px 24px 24px 24px;
-  height: 150px;
+  width:100%;
+  max-width: 327px;
+  padding-top: 84px;
+  padding-bottom: 8px;
   color: #172B4D;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-bottom: 0;
 }
 
 .headline-intro-text {
-  width:327px;
-  padding: 24px;
-  height: 146px;
+  width:100%;
+  padding-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding: 0;
+  margin: 0;
 }
 
 .headline-social-connect {
-  margin-top: 12px;
-  padding: 24px 20px 0px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -102,14 +102,271 @@ header {
 
 .headline-media-links {
   display: flex;
-  padding-left:24px
+  padding: 0;
+  margin: 0;
 }
 
 .headline-media-links span {
   display:block;
   margin:0px 24px 0px 0px;
-  width:20px;
-  height: 20px;
   color: #505F79;
   
+}
+
+/* Works-section css begins here */
+
+.card {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 24px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h2 {
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #172B4D;
+}
+
+.content-list {
+  padding: 0;
+  display: flex;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.content-list li {
+  padding-right: 12px;
+}
+
+.project-content p {
+  max-width: 295px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.dev-lang {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+
+.dev-lang li .lang {
+  margin-right: 32px;
+  border-radius: 8px;
+  background: #EBEBFF;
+  color: #6070FF;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.see-project-btn {
+  margin-top: 40px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+
+.see-project-btn a {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background: #FFFFFF;
+  color: #396DF2;
+  border: 1px solid #396DF2;
+  border-radius: 16px;
+  padding: 15px 35px 15px 35px;
+}
+
+.see-project-btn a:hover {
+  background: #6070ff;
+  color: #fff;
+  border: none;
+}
+
+.see-project-btn a:active {
+  background: #2230d1;
+  color: #fff;
+  border: none;
+}
+
+/* About-me-section css begin here */
+
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  padding: 24px;
+  margin-top: 40px;
+  padding-bottom: 100px;
+  border-top-right-radius: 100px;
+  }
+
+  .about-me--intro {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172B4D;
+  }
+
+  .about-me--intro-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+  .about-me--connect {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+  }
+
+  .about-me--links {
+    padding: 0;
+    color: #505F79;
+  }
+  .about-me--links .fa {
+    margin-right:24px;
+  }
+
+  .get-my-resume--btn {
+    margin-top: 40px;
+    font-weight: 500;
+    padding-bottom: 24px;
+  }
+  
+  .get-my-resume--btn a {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    background: #FFFFFF;
+    color: #396DF2;
+    border: 1px solid #396DF2;
+    border-radius: 16px;
+    padding: 12px 14px 12px 14px;
+  }
+
+  .get-my-resume--btn a:hover {
+    background: #6070ff;
+    color: #fff;
+    border: none;
+  }
+  
+  .get-my-resume--btn a:active {
+    background: #2230d1;
+    color: #fff;
+    border: none;
+  }
+
+  .about-me--lang, .about-me-frameworks, .about-me-skillset {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .about-me--lang p, .about-me-frameworks p, .about-me-skillset p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+/* Contact-me-form css goes here */
+
+.contact-me--form {
+  background: #6070FF url(images/contact-form-shapes-mobile.svg) no-repeat 100% 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 134px 24px 20px 24px;
+  margin:0;
+}
+
+.contact-me {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.form-intro-text {
+  max-width: 327px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+  height: 102px;
+  margin: 0 0 65px 0;
+}
+
+input, textarea {
+  width: 327px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.form-btn {
+  padding: 12px 7px 12px 7px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070FF;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border-style: none;
+  display: block;
+  margin-left: 0%;
+}
+
+.hoverme {
+  background: #6070ff;
+  color: #fff;
+  border: none;
+}
+
+.activeme {
+  background: #fff;
+  color: #6070FF;
+  border: none;
+}
+
+form {
+  padding-bottom: 24px;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172B4D;
 }
