@@ -1,49 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio:  Add a contact form and finish the mobile version
-Third Milestone:
-  ### Contact Form: Created the contact form  to finish the mobile version of my portfolio 
-> It is the third milestone in the process of creating my portfolio website:
+# Portfolio: Desktop Version
+## Fourth Milestone:
+  * In this milestone; I built on my previous completed responsive mobile version to create a responsive designs on all desktop screens
+### Descriptions:
 
-* Addded the Contact Form to mobile version
+* Applied UIs design principles 
+* Used media queries to make sure that my website displays correctly on desktop screens.
+* Used Grid and Flexbox layout elements on the page
+* Replicated the figma template design I had chosen for my portfolio project
    
 
-* This project is a continuation of the previous project, so it also contain the whole project code for the mobile version
 
-* Created the form with HTML5 validations.
-* Implement the principles of UX.
+## Built With:
 
+#### Main Languages: 
 
+* HTML
+* CSS
+    * Media queries css
 
-
-## Built With
-
-- HTML
-- CSS
-- Technologies used: vs code, git and GitHub
-
-
+#### Technologies used: 
+  > vs code
+  > git
+  > GitHub
 
 
->To get a local copy up and running follow these simple example steps.
-Locate the project folder in the Repository.
-Click on the code button and dowload a zip file for the project locally.
-Locate the index.html file and double click it to view webpage.
 
-### Prerequisites
-Node.js, stylelint, browser for displaying it's content.
-install node package manager(npm): npm helps to install stylelint.
+
+### To get a local copy up and running
+
+> Follow these simple example steps:
+
+  1. Locate the project folder in the Repository.
+  2. Click on the code button and dowload a zip file for the project locally.
+  3. Locate the index.html file and double click it to view webpage.
+
+### Prerequisites:
+
+  * Node.js as prerequisites for npm installation
+  * install node package manager(npm): npm helps to install stylelint.
+  * stylelint for debuging code
+  * Any browser of your choice to display the webpage contents.
 
 
 ### Setup
-Download and install browser.
+> Download and install browser.
 
 ### Usage
-Navigate through the web page to find the information you need. Use the links in the pages to move to different sections.
+> Navigate through the web page to find the information you need. Use the links in the pages to move to different sections.
 
 
 ### Deployment
-  Project reside in this Repo. You can clone the repo or download the files manually to your local machine.
+> Project reside in this Repository. You can clone the repo or download the files manually to your local machine.
 
 
 
