@@ -554,13 +554,14 @@ input:focus {
   }
 
   .Desktop-works-section .dev-lang li a {
- margin-right: 8px;
+    margin-right: 8px;
   }
 
   .Desktop-works-section .see-project-btn a {
-    padding:7px 12px 7px 12px;
+    padding: 7px 12px 7px 12px;
     text-align: center;
   }
+
   main {
     border-top-right-radius: 50vmax;
   }
