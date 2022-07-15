@@ -310,7 +310,8 @@ main {
 /* Contact-me-form css goes here */
 
 .contact-me--form {
-  background: #6070ff url(images/contact-form-shapes-mobile.svg) no-repeat 100%
+  background:
+    #6070ff url(images/contact-form-shapes-mobile.svg) no-repeat 100%
     100%;
   width: 100%;
   display: flex;
