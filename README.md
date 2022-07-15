@@ -1,14 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Desktop Version
-## Fourth Milestone:
-  * In this milestone; I built on my previous completed responsive mobile version to create a responsive designs on all desktop screens
+# Portfolio: Added Animations and transitions to my Portfolio website
+## Milestone:
+  * In this milestone; we as a team; coding partners added animation and transition to our projects in our pair programming session.
 ### Descriptions:
 
-* Applied UIs design principles 
-* Used media queries to make sure that my website displays correctly on desktop screens.
-* Used Grid and Flexbox layout elements on the page
-* Replicated the figma template design I had chosen for my portfolio project
+* add some transitions and animations to my portfolio website
+* complete the work by doing pair programming with my coding partner to implement the changes to both of our projects.
+* Aim to make our portfolios more attractive!
+* created a new branch in my repository for this exercise.
+* Improve user experience of my portfolio
    
 
 
