@@ -310,8 +310,7 @@ main {
 /* Contact-me-form css goes here */
 
 .contact-me--form {
-  background:
-    #6070ff url(images/contact-form-shapes-mobile.svg) no-repeat 100%
+  background: #6070ff url(images/contact-form-shapes-mobile.svg) no-repeat 100%
     100%;
   width: 100%;
   display: flex;
@@ -529,8 +528,8 @@ input:focus {
 
   .Desktop-works-section .card h2 {
     margin: 0;
-    padding-top: 14px;
-    padding-bottom: 4px;
+    padding-top: 26px;
+    padding-bottom: 10px;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -543,6 +542,7 @@ input:focus {
     font-size: 18px;
     line-height: 24px;
     color: #344563;
+    padding-bottom: 12px;
   }
 
   .Desktop-works-section .project-content p {
@@ -551,6 +551,7 @@ input:focus {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    padding-bottom: 24px;
   }
 
   .Desktop-works-section .dev-lang li a {
@@ -560,6 +561,7 @@ input:focus {
   .Desktop-works-section .see-project-btn a {
     padding: 7px 12px 7px 12px;
     text-align: center;
+    border-radius: 8px;
   }
 
   main {
@@ -570,6 +572,7 @@ input:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
+    padding: 44px;
   }
 
   .about-me-section .about-me--lang-used {
