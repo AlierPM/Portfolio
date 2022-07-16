@@ -37,6 +37,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: goldenrod;
+  width: 100%;
+  transition: width 4s, background-color 3s;
+}
+
+.mob-nav:hover {
+  background-color: aqua;
+  width: 50%;
 }
 
 .mob-nav .mob-nav-menu {
@@ -438,6 +446,19 @@ input:focus {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    position: relative;
+    animation: mylogo linear 5s infinite;
+  }
+
+  /* added animation to logo in desktop version */
+  @keyframes mylogo {
+    from {
+      left: 0%;
+    }
+
+    to {
+      left: 50%;
+    }
   }
 
   .desktop-nav li {
@@ -638,6 +659,7 @@ input:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 24px;
   }
 
   .Desktop-contact-me--form .contact-me {
@@ -645,17 +667,21 @@ input:focus {
     font-size: 40px;
     line-height: 52px;
     text-align: center;
-    margin: 0;
-    padding-top: 150px;
+    padding-top: 161px;
+    padding-bottom: 3px;
   }
 
   .Desktop-contact-me--form .form-intro-text {
-    max-width: 620px;
+    max-width: 630px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 0;
+    padding: 0 10px 7px 9px;
   }
 
   input,
@@ -666,6 +692,24 @@ input:focus {
   .form-btn {
     display: block;
     margin-left: 103px;
+    background-color: goldenrod;
+    color: #fff;
+    border: 2px dashed #fff;
+    transition: border 4s, background-color 3s;
+  }
+
+  .form-btn:active:enabled {
+    background-color: #fff;
+    color: #2230d2;
+    border: 2px solid goldenrod;
+    transition: border 4s background-color 3s color 2s;
+  }
+
+  /* Added the transition to form button on hover */
+
+  .form-btn:hover {
+    background-color: aqua;
+    border: #000;
   }
 }
 
