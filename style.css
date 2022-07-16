@@ -449,15 +449,16 @@ input:focus {
     position: relative;
     animation: mylogo linear 5s infinite;
   }
-/* added animation to logo in desktop version */
+
+  /* added animation to logo in desktop version */
   @keyframes mylogo {
-    from{
-      left:0% ;
+    from {
+      left: 0%;
     }
-    to{
-      left:50%;
+
+    to {
+      left: 50%;
     }
-    
   }
 
   .desktop-nav li {
