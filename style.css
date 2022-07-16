@@ -446,6 +446,18 @@ input:focus {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    position: relative;
+    animation: mylogo linear 5s infinite;
+  }
+/* added animation to logo in desktop version */
+  @keyframes mylogo {
+    from{
+      left:0% ;
+    }
+    to{
+      left:50%;
+    }
+    
   }
 
   .desktop-nav li {
