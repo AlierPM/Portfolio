@@ -1,15 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Desktop Version
-## Fourth Milestone:
-  * In this milestone; I built on my previous completed responsive mobile version to create a responsive designs on all desktop screens
-### Descriptions:
+# Portfolio: Application deploy
 
-* Applied UIs design principles 
-* Used media queries to make sure that my website displays correctly on desktop screens.
-* Used Grid and Flexbox layout elements on the page
-* Replicated the figma template design I had chosen for my portfolio project
-   
+> Used GitHub Pages to deploy my Portfolio.
 
 
 ## Built With:
@@ -25,7 +18,9 @@
   > git
   > GitHub
 
+## Live Demo (if available)
 
+[Live Demo Link](https://livedemo.com)
 
 
 ### To get a local copy up and running
