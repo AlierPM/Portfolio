@@ -18,10 +18,9 @@
   > git
   > GitHub
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+## My Portfolio Live Demo:  [Live Demo Link](https://alierpm.github.io/)
+ > You could also Click the link above to vist my live portfolio to see have done so far given your time! Thanks for being here!
+ 
 
 ### To get a local copy up and running
 
