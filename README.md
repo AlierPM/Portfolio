@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Application deploy
+# Portfolio: Accessibility
 
-> Used GitHub Pages to deploy my Portfolio.
-
+> Evaluate my portfolio website against accessibility best practices and implement necessary changes to ensure that my website is accessible.
+* Used [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 
 ## Built With:
 
