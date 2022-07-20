@@ -1,16 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Desktop Version
-## Fourth Milestone:
-  * In this milestone; I built on my previous completed responsive mobile version to create a responsive designs on all desktop screens
-### Descriptions:
+# Portfolio: Accessibility
 
-* Applied UIs design principles 
-* Used media queries to make sure that my website displays correctly on desktop screens.
-* Used Grid and Flexbox layout elements on the page
-* Replicated the figma template design I had chosen for my portfolio project
-   
-
+> Evaluate my portfolio website against accessibility best practices and implement necessary changes to ensure that my website is accessible.
+* Used [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 
 ## Built With:
 
@@ -25,8 +18,9 @@
   > git
   > GitHub
 
-
-
+## My Portfolio Live Demo:  [View Live Demo here](https://alierpm.github.io/)
+ > You could also Click the link above to vist my live portfolio to see have done so far given your time! Thanks for being here!
+ 
 
 ### To get a local copy up and running
 
