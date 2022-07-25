@@ -42,11 +42,10 @@ ul {
   transition: width 4s, background-color 3s;
 }
 
-.mob-nav:hover {
+/*.mob-nav:hover {
   background-color: aqua;
   width: 50%;
-}
-
+}*/
 .mob-nav .mob-nav-menu {
   color: #6070ff;
   width: 18px;
