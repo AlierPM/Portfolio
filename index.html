@@ -13,28 +13,40 @@
 <body>
     <!-- Accessibility check -->
     <!-- headder containing navigation links and logo -->
-<script src="./index.js"></script>
-    <header>
-        <div class="mob-nav">
-            <p class="my-logo"><a href="index.html">AlierPM</a></p>
-            <a href="#"><span class="mob-nav-menu fa fa-bars " onclick="openmenunavigation()"></span></a>
-            <ul class="d-nav">
-                <li class="d-nav-link"><a href="#">Portfolio</a></li>
-                <li class="d-nav-link"><a href="#">About</a></li>
-                <li class="d-nav-link"><a href="#">Contact</a></li>
+<script src="index.js"></script>
+    <header id="header">
+        <nav class="navBar" id="navbar">
+            <a href="#header" class="navLogo">Alier</a>
+            <hr class="rounded">
+           <ul class="navMenu leftArrow">
+              <li class="navItem">
+                <a href="#portfolio" class="navLink">Portfolio <span class="navSpan"></span></a>
+              </li>
+              <li class="navItem">
+                <a href="#about" class="navLink"
+                  >About <span class="navAbout"></span></a
+                >
+              </li>
+              <li class="navItem">
+                <a href="#contact" class="navLink">Contact <span class="navSpan"></span></a>
+              </li>
+    <li class="navItem">
+              </li>
             </ul>
-        </div>
-
-        <!-- Desktop-nav display to none here  -->
-
-        <nav class="desktop-nav">
-            <p class="my-logo"><a href="index.html">AlierPM</a></p>
-            <ul class="d-nav">
-                <li class="d-nav-link"><a href="#">Portfolio</a></li>
-                <li class="d-nav-link"><a href="#">About</a></li>
-                <li class="d-nav-link"><a href="#">Contact</a></li>
+            <a href="#header" class="mobile-logo">Alier</a>
+            <ul id="nav">
+              <li class="navigation"><a href="#portfolio">Portfolio</a></li>
+              <li class="navigation"><a href="#about">About</a></li>
+              <li class="navigation"><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+            <div class="mobile-nav">
+              <div class="hamburgerMenu">
+                <span class="hamburgerLine"></span>
+                <span class="hamburgerLine"></span>
+                <span class="hamburgerLine"></span>
+              </div>
+             </div>
+          </nav>
     </header>
 
     <!-- headline-section begins here -->
