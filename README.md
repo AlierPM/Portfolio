@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Portfolio: Added Interaction to the Mobile Menu
+#  Portfolio: details popup window
 
-* Added interactions with JavaScript and DOM manipulation to the mobile menu
+   * For this milestone of my portfolio website,  I implement a popup window that includes the project details in both desktop and mobile. In order to do this,  I store the information about my projects in a JavaScript object.
 
 
 * Used [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
