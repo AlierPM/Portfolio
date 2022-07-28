@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Portfolio: Accessibility Report
+# Portfolio: Added Interaction to the Mobile Menu
 
-> Evaluate my portfolio website against accessibility best practices and implement necessary changes to ensure that my website is accessible.
+> Added interactions with JavaScript and DOM manipulation to the mobile menu
 * Used [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 
 ## Built With:
@@ -9,6 +9,7 @@
 #### Main Languages: 
 
 * HTML
+* JavaScript
 * CSS
     * Media queries css
 
