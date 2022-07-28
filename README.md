@@ -1,7 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Portfolio: Added Interaction to the Mobile Menu
 
-> Added interactions with JavaScript and DOM manipulation to the mobile menu
+* Added interactions with JavaScript and DOM manipulation to the mobile menu
+
+
 * Used [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 
 ## Built With:
