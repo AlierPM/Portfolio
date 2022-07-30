@@ -10,8 +10,8 @@
 body {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   background: #e5e5e5;
- margin:0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .mob-nav .fa {
@@ -308,11 +308,6 @@ header {
 .see-project-btn {
   margin-top: 40px;
   font-weight: 500;
-  padding-bottom: 24px;
-}
-
-.see-project-btn {
-  font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   background: #fff;
@@ -442,7 +437,6 @@ main {
 .popup-tags ul {
   display: flex;
   padding: 0;
-  
 }
 
 .popup-tags ul li {
@@ -454,7 +448,8 @@ main {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-} 
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
@@ -498,11 +493,11 @@ main {
 }
 
 .fa-arrow-up-right-from-square::before {
-  content: "\f08e"
+  content: "\f08e";
 }
 
-.fa-brands, .fab {
-  font-family: "Font Awesome 6 Brands";
+.fa-brands,
+.fab {
   font-weight: 400;
 }
 
@@ -717,14 +712,13 @@ input:focus {
 /* Desktop Version css goes: Using media query */
 
 @media (min-width: 768px) {
-  
-header {
-  width: 100%;
-  background: #fff;
-  padding: 24px;
-  position: fixed;
-  top: 0;
-}
+  header {
+    width: 100%;
+    background: #fff;
+    padding: 24px;
+    position: fixed;
+    top: 0;
+  }
 
   .mob-nav {
     display: none;
@@ -943,7 +937,7 @@ header {
     margin-right: 8px;
   }
 
-  .Desktop-works-section .see-project-btn  {
+  .Desktop-works-section .see-project-btn {
     padding: 7px 12px 7px 12px;
     text-align: center;
     border-radius: 8px;
@@ -953,9 +947,9 @@ header {
     border-top-right-radius: 50vmax;
   }
 
-   /* ============================Start of Desktop-Details Popup Window======================= */
+  /* ============================Start of Desktop-Details Popup Window======================= */
 
-   .modal-content {
+  .modal-content {
     display: block;
     padding: 40px 60px;
   }
@@ -991,7 +985,6 @@ header {
   }
 
   /* ============================End of Desktop-Details Popup Window======================= */
-
 
   .about-me-section {
     display: grid;
