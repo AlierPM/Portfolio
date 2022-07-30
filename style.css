@@ -10,6 +10,8 @@
 body {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   background: #e5e5e5;
+ margin:0;
+ padding: 0;
 }
 
 .mob-nav .fa {
@@ -100,7 +102,6 @@ header {
 
   .navBar {
     display: flex;
-    position: fixed;
     max-width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -310,7 +311,7 @@ header {
   padding-bottom: 24px;
 }
 
-.see-project-btn a {
+.see-project-btn {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -321,13 +322,13 @@ header {
   padding: 15px 35px 15px 35px;
 }
 
-.see-project-btn a:hover {
+.see-project-btn:hover {
   background: #6070ff;
   color: #fff;
   border: none;
 }
 
-.see-project-btn a:active {
+.see-project-btn:active {
   background: #2230d1;
   color: #fff;
   border: none;
@@ -336,6 +337,182 @@ header {
 main {
   background-color: #fff;
 }
+
+/* =============================================Details Popup Window Starts Here=============================================== */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+
+  /* overflow: auto; Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  display: inline-block;
+  position: fixed;
+  overflow: auto;
+  left: 50%;
+  top: 1rem;
+  transform: translate(-50%, 0);
+  width: 90%;
+  height: 95vh;
+  border-radius: 16px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+.popup-snapshoot-portfolio {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.popup-snapshoot-portfolio img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 12px 16px;
+}
+
+.popup-snapshoot-portfolio:hover {
+  transform: scale(1.06);
+  transition: 0.4s;
+}
+
+.popup-client-frame ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #737578;
+  background-color: #fff;
+}
+
+.popup-client-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  background-color: #fff;
+}
+
+.popup-client-frame h3 {
+  padding: 0;
+  display: inline;
+}
+
+.popup-client-frame span {
+  padding: 0 16px;
+}
+
+.popup-project-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding: 0 15px;
+}
+
+.popup-detail-txt {
+  font-weight: 400;
+  font-size: 18px;
+  color: #344563;
+  padding: 12px 16px;
+}
+
+.popup-tags {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding: 15px;
+}
+
+.popup-tags ul {
+  display: flex;
+  padding: 0;
+  
+}
+
+.popup-tags ul li {
+  margin-right: 32px;
+  border-radius: 8px;
+  background: #ebebff;
+  color: #6070ff;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+} 
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+  gap: 25px;
+}
+
+.popup-action button {
+  display: flex;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: baseline;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 50px;
+  width: fit-content;
+}
+
+.fa-arrow-up-right-from-square::before {
+  content: "\f08e"
+}
+
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.popup-action button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+/* =============================================Details Popup Window Ends Here=============================================== */
+
 
 /* About-me-section css begin here */
 
@@ -540,6 +717,15 @@ input:focus {
 /* Desktop Version css goes: Using media query */
 
 @media (min-width: 768px) {
+  
+header {
+  width: 100%;
+  background: #fff;
+  padding: 24px;
+  position: fixed;
+  top: 0;
+}
+
   .mob-nav {
     display: none;
   }
@@ -757,7 +943,7 @@ input:focus {
     margin-right: 8px;
   }
 
-  .Desktop-works-section .see-project-btn a {
+  .Desktop-works-section .see-project-btn  {
     padding: 7px 12px 7px 12px;
     text-align: center;
     border-radius: 8px;
@@ -766,6 +952,46 @@ input:focus {
   main {
     border-top-right-radius: 50vmax;
   }
+
+   /* ============================Start of Desktop-Details Popup Window======================= */
+
+   .modal-content {
+    display: block;
+    padding: 40px 60px;
+  }
+
+  .popup-snapshoot-portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
+    border: 3px solid rgb(195, 193, 193);
+  }
+
+  .popup-snapshoot-portfolio img {
+    width: 80rem;
+    height: 40rem;
+    border-radius: 50px;
+    border: 1px solid rgb(195, 193, 193);
+  }
+
+  .popup-snapshoot-portfolio:hover {
+    transform: scale(1);
+  }
+
+  .popup-description-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 45px 5px;
+    align-items: center;
+  }
+
+  .popup-project-title {
+    padding: 5px 20px;
+  }
+
+  /* ============================End of Desktop-Details Popup Window======================= */
+
 
   .about-me-section {
     display: grid;
