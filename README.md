@@ -2,7 +2,7 @@
 #  Portfolio: details popup window
 
    * For this milestone of my portfolio website,  I implement a popup window that includes the project details in both desktop and mobile. In order to do this,  I store the information about my projects in a JavaScript object.
-
+   * For this project we implement javascript and DOM manipulation with mush commitment from the collabortors
 
 * Used [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 
