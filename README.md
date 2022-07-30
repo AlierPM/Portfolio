@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-#  Portfolio: details popup window
+#  Portfolio: validate contact form
 
-   * For this milestone of my portfolio website,  I implement a popup window that includes the project details in both desktop and mobile. In order to do this,  I store the information about my projects in a JavaScript object.
-   * For this project we implement javascript and DOM manipulation with mush commitment from the collabortors
+* Process user input according to business rules.
+* Use client-side validation to catch and throw errors in the UI.
 
 * Used [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 
