@@ -463,7 +463,7 @@
           that you need built or a project that needs coding. I’d <br />
           love to help with it
         </p>
-        <form action="https://formspree.io/f/moqrojrw" method="post">
+        <form id="contactForm" action="https://formspree.io/f/moqrojrw" method="post">
           <fieldset>
             <input
               type="text"
@@ -483,6 +483,7 @@
               placeholder="alierpm2022@gmail.com"
               required
             />
+            <p id="errorDisplay"></p>
             <textarea
               name="user_message"
               class="text-msg"
@@ -494,7 +495,7 @@
               required
             ></textarea>
           </fieldset>
-          <button class="form-btn hoverme activeme disabled-f" type="submit">
+          <button id="form-btn" class="form-btn hoverme activeme disabled-f" type="submit">
             Get In Touch
           </button>
         </form>
@@ -502,6 +503,7 @@
       </section>
     </main>
     <!-- Accessibility check -->
-    <script src="/index.js"></script>
+    <script defer src="index.js"></script>
+    <script src="valid.js"></script>
   </body>
 </html>
