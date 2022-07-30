@@ -13,3 +13,5 @@ contactForm.addEventListener('submit', (e) => {
     errorDisplay.style.visibility = 'hidden';
   }
 });
+
+//created  a javascript file for the emails
