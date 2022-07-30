@@ -13,7 +13,7 @@
 * HTML
 * JavaScript
 * CSS
-    * Media queries css
+* Media queries css
 
 #### Technologies used: 
   > vs code
